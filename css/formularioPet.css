@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Quicksand:wght@300&family=Roboto:wght@100&family=Tilt+Neon&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family:'Tilt Neon';
+    background-color: #f9eac6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #215f63;
+    background-image: url(images/backfinal.jpg);
+    background-position: center;
+    
+}
+
+form{
+padding: 50px 55px;
+box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+text-align: center;
+width: 540px;
+background-color: #d7bde2;
+
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group > img{
+    display:flex;
+    justify-content: center;
+    margin-left: 35%;
+    border-radius: 10%;
+}
+
+h2{
+    color: #000000 ;
+    font-size: 35px;
+}
+
+label{
+    color: #000000 ;
+    font-size: 15px;
+    font-weight: 600;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color:#Eafaf1 ;
+    border: 2px solid ;
+    color:#000000 ;
+    outline: none;
+
+}
+
+input::placeholder, textarea::placeholder{
+    color:#59306b ;
+
+}
+
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {  
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+ }
+
+ .btn{
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #Eafaf1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);    
+ }
+
+ .btn:hover{
+    background-color: #215f63;
+ }
+
+
+
+@media (max-width: 991px){
+
+body{
+    padding: 30px;
+}
+
+form{
+    padding: 50px 30px;
+    width: 100%;
+}
+
+input{
+    padding: 15px;
+}
+
+}
